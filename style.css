@@ -1,0 +1,45 @@
+
+
+
+.box{
+    
+    height:300px;
+    width:300px;
+    background-color:rgb(178, 248, 250)
+}
+.circle {
+    width:100px;
+    height: 100px;
+    background-color: crimson;
+    position:absolute;
+    border-radius:50%;
+    animation-name: movement;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes movement{
+    0% {
+        background color:crimson;
+        left:0px;top:0px;
+
+    }
+    25%{
+       background-color:purple;
+        left:200px;top:0px;
+    }
+    50%{
+        background-color:yellow;
+        left:200px;top:200px;
+    }
+    75%{
+        background-color:blue;
+        left:0px;top:200px;
+    }
+    100%{
+        background-color:green;
+        left:0px;top:0px;
+    }
+}
+
+
